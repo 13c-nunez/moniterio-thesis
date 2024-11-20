@@ -17,6 +17,7 @@ export default function Home() {
           <p>Welcome to my thesis project.</p>
           <p>Indoor 3D reconstruction using Scan-to-BIM and AI for thermal comfort monitoring with IoT devices</p>
           <p>Author : Christopher Nuñez</p>
+          <p>Contact : christopher.nunez.v@gmail.com / +51 962167068</p>
         </ol>
       </main>
       <footer className={styles.footer}>
