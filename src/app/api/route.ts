@@ -1,5 +1,5 @@
 //async: nb bloquea el hilo de ejecución. Funcion async. Para respuesta de api por ejem (espera en backgroudg)
-export async function GET(req: Request, res: Response) {
+export async function GET() {
     console.log('API GET request')
     return Response.json({ message: 'Christopher Nuñez' });
 }
