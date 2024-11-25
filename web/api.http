@@ -2,10 +2,14 @@ GET http://localhost:3000/api
 
 ###POST NEW ENVIRONMENT DATA
 POST http://localhost:3000/api
-
 Content-Type: application/json
 
 {
-    "temperature":25,
-    "humidity":23
+    "Temperatura": 25,
+    "Humedad": 23,
+    "V_Viento": 50, 
+    "C_Co2": 12, 
+    "Altura": 15, 
+    "Posicion": "Norte", 
+    "ID_ESP32": 15
 }
